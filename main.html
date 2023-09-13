@@ -8,8 +8,27 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+	<form id="my-form" method="post">
+                <label for="name">Name</label>
+                <br>
+                <label for="dob">DOB</label>
+                <input type="date" id="dob" required>
+                <br>
+        <label for='tel'>Phone Number:</label>
+        <input type='tel' id='tel' placeholder='xxx-xxx-xxxx'>
+        <br>
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="password" required>
+                <br>
+        <label for='tos'>I agree to the TOS</label>
+        <input type='checkbox' id='tos' required>
+        <br>
+                <button type="submit">Submit</button>
+        </form>
+
+
+	<script type="text/javascript" src="./script.js">
+	</script>
 
 </body>
 
